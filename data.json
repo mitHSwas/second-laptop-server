@@ -1,17 +1,92 @@
 [
     {
-        "name": "Display Screen",
-        "description": "Average second hand laptop screen price in Bangladesh range between Tk. 4399 - Tk. 9000 range for non-touch screen",
-        "image": "https://i.ibb.co/jGr4BsR/image1.webp"
+        "productName": "Portable Monitor",
+        "categoryId": "638372ae2b7c4e8545465d37",
+        "sellerName": "Cannon Fox",
+        "picture": "https://i.ibb.co/k4xKVBb/image2.webp",
+        "originalPrice": 94,
+        "reSellPrice": 41,
+        "yearOfUse": 3,
+        "postedTime": "Nov 23, 2022"
     },
     {
-        "name": "Laptop RAM",
-        "description": "Discover a wide range of laptop RAM including Geil, Adata, HP, Twinmos RAMs at best price in BD. Shop Hand to Hand with special discount.",
-        "image": "https://i.ibb.co/VY9Yntg/image1.webp"
+        "productName": "ViewSonic VA2259-SMH",
+        "categoryId": "638372ae2b7c4e8545465d37",
+        "sellerName": "Brennan Sexton",
+        "picture": "https://i.ibb.co/3R93z4p/image3.webp",
+        "originalPrice": 84,
+        "reSellPrice": 50,
+        "yearOfUse": 1,
+        "postedTime": "Nov 23, 2022"
     },
     {
-        "name": "Keyboard",
-        "description": "Whenever you use a desktop computer or laptop, you'll probably use a keyboard. The most common kind is called a 'QWERTY' keyboard. Explore it visit details page",
-        "image": "https://i.ibb.co/kmSw7h3/image1.webp"
+        "productName": "AOC e1659Fwu",
+        "categoryId": "638372ae2b7c4e8545465d37",
+        "sellerName": "Pruitt Wolfe",
+        "picture": "https://i.ibb.co/2yRXNMS/image4.webp",
+        "originalPrice": 90,
+        "reSellPrice": 60,
+        "yearOfUse": 2,
+        "postedTime": "Nov 23, 2022"
+    },
+    {
+        "productName": "Crucial RAM 32GB DDR5",
+        "categoryId": "638372ae2b7c4e8545465d38",
+        "sellerName": "Cannon Fox",
+        "picture": "https://i.ibb.co/yVjjcj6/image2.webp",
+        "originalPrice": 94,
+        "reSellPrice": 41,
+        "yearOfUse": 3,
+        "postedTime": "Nov 23, 2022"
+    },
+    {
+        "productName": "Corsair Memory Kit 16GB",
+        "categoryId": "638372ae2b7c4e8545465d38",
+        "sellerName": "Brennan Sexton",
+        "picture": "https://i.ibb.co/zmKj52f/image3.webp",
+        "originalPrice": 84,
+        "reSellPrice": 50,
+        "yearOfUse": 1,
+        "postedTime": "Nov 23, 2022"
+    },
+    {
+        "productName": "Kingston FURY",
+        "categoryId": "638372ae2b7c4e8545465d38",
+        "sellerName": "Pruitt Wolfe",
+        "picture": "https://i.ibb.co/1GdGfpF/image4.webp",
+        "originalPrice": 90,
+        "reSellPrice": 60,
+        "yearOfUse": 2,
+        "postedTime": "Nov 23, 2022"
+    },
+    {
+        "productName": "MK270 Wireless Keyboard",
+        "categoryId": "638372ae2b7c4e8545465d39",
+        "sellerName": "Cannon Fox",
+        "picture": "https://i.ibb.co/h7KsFyQ/image2.webp",
+        "originalPrice": 94,
+        "reSellPrice": 41,
+        "yearOfUse": 3,
+        "postedTime": "Nov 23, 2022"
+    },
+    {
+        "productName": "Wired USB Keyboard",
+        "categoryId": "638372ae2b7c4e8545465d39",
+        "sellerName": "Brennan Sexton",
+        "picture": "https://i.ibb.co/4KJDq2h/image3.webp",
+        "originalPrice": 84,
+        "reSellPrice": 50,
+        "yearOfUse": 1,
+        "postedTime": "Nov 23, 2022"
+    },
+    {
+        "productName": "Verbatim 2.4Ghz Wireless",
+        "categoryId": "638372ae2b7c4e8545465d39",
+        "sellerName": "Pruitt Wolfe",
+        "picture": "https://i.ibb.co/Hp1cVfm/image4.webp",
+        "originalPrice": 90,
+        "reSellPrice": 60,
+        "yearOfUse": 2,
+        "postedTime": "Nov 23, 2022"
     }
 ]
