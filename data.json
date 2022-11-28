@@ -34,7 +34,7 @@
         "categoryId": "638372ae2b7c4e8545465d38",
         "sellerName": "Cannon Fox",
         "picture": "https://i.ibb.co/yVjjcj6/image2.webp",
-        "originalPrice": 94,
+        "originalPrice": 64,
         "reSellPrice": 41,
         "yearOfUse": 3,
         "postedTime": "Nov 23, 2022"
@@ -44,9 +44,9 @@
         "categoryId": "638372ae2b7c4e8545465d38",
         "sellerName": "Brennan Sexton",
         "picture": "https://i.ibb.co/zmKj52f/image3.webp",
-        "originalPrice": 84,
-        "reSellPrice": 50,
-        "yearOfUse": 1,
+        "originalPrice": 74,
+        "reSellPrice": 30,
+        "yearOfUse": 6,
         "postedTime": "Nov 23, 2022"
     },
     {
@@ -65,8 +65,8 @@
         "sellerName": "Cannon Fox",
         "picture": "https://i.ibb.co/h7KsFyQ/image2.webp",
         "originalPrice": 94,
-        "reSellPrice": 41,
-        "yearOfUse": 3,
+        "reSellPrice": 31,
+        "yearOfUse": 5,
         "postedTime": "Nov 23, 2022"
     },
     {
@@ -74,8 +74,8 @@
         "categoryId": "638372ae2b7c4e8545465d39",
         "sellerName": "Brennan Sexton",
         "picture": "https://i.ibb.co/4KJDq2h/image3.webp",
-        "originalPrice": 84,
-        "reSellPrice": 50,
+        "originalPrice": 88,
+        "reSellPrice": 51,
         "yearOfUse": 1,
         "postedTime": "Nov 23, 2022"
     },
@@ -84,9 +84,9 @@
         "categoryId": "638372ae2b7c4e8545465d39",
         "sellerName": "Pruitt Wolfe",
         "picture": "https://i.ibb.co/Hp1cVfm/image4.webp",
-        "originalPrice": 90,
-        "reSellPrice": 60,
-        "yearOfUse": 2,
+        "originalPrice": 100,
+        "reSellPrice": 55,
+        "yearOfUse": 3,
         "postedTime": "Nov 23, 2022"
     }
 ]
