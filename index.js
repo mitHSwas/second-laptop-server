@@ -58,6 +58,15 @@ async function run() {
             }
             next();
         }
+        const verifyAdmin = async (req, res, next) => {
+            const decodedEmail = req.decoded.email;
+            const query = { email: decodedEmail };
+            const user = await usersCollection.findOne(query);
+            if (user?.role !== 'admin') {
+                return res.status(403).send({ message: 'forbidden access' })
+            }
+            next();
+        }
 
         app.get('/categories', async (req, res) => {
             const query = {};
@@ -79,9 +88,7 @@ async function run() {
             }
 
             const query = { email: email };
-            console.log("query", query);
             const bookings = await bookingsCollection.find(query).toArray();
-            console.log("what", bookings);
             res.send(bookings);
         });
         app.post('/booking', verifyJWT, async (req, res) => {
@@ -123,7 +130,25 @@ async function run() {
             const user = await usersCollection.findOne(query);
             res.send({ isSeller: user?.role === 'seller' });
         })
-        app.get('/jwt', async (req, res) => {
+        app.get('/users/admin/:email', verifyJWT, verifyAdmin, async (req, res) => {
+            const email = req.params.email;
+            const query = { email }
+            const user = await usersCollection.findOne(query);
+            res.send({ isAdmin: user?.role === 'admin' });
+        })
+        app.get('/allbuyers', async (req, res) => {
+            const email = req.params.email;
+            const query = { role: 'buyer' };
+            const allbuyers = await usersCollection.find(query).toArray();
+            res.send(allbuyers);
+        })
+        app.get('/allsellers', async (req, res) => {
+            const email = req.params.email;
+            const query = { role: 'seller' };
+            const allsellers = await usersCollection.find(query).toArray();
+            res.send(allsellers);
+        })
+        app.get('/jwt', verifyJWT, verifyAdmin, async (req, res) => {
             const email = req.query.email;
             const query = { email: email };
             const user = await usersCollection.findOne(query);
