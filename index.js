@@ -148,7 +148,7 @@ async function run() {
             const allsellers = await usersCollection.find(query).toArray();
             res.send(allsellers);
         })
-        app.get('/jwt', verifyJWT, verifyAdmin, async (req, res) => {
+        app.get('/jwt', async (req, res) => {
             const email = req.query.email;
             const query = { email: email };
             const user = await usersCollection.findOne(query);
