@@ -132,7 +132,7 @@ async function run() {
         })
         app.get('/users/admin/:email', verifyJWT, verifyAdmin, async (req, res) => {
             const email = req.params.email;
-            const query = { email }
+            const query = { email };
             const user = await usersCollection.findOne(query);
             res.send({ isAdmin: user?.role === 'admin' });
         })
@@ -142,11 +142,17 @@ async function run() {
             const allbuyers = await usersCollection.find(query).toArray();
             res.send(allbuyers);
         })
-        app.get('/allsellers', async (req, res) => {
+        app.get('/allsellers', verifyJWT, verifyAdmin, async (req, res) => {
             const email = req.params.email;
             const query = { role: 'seller' };
             const allsellers = await usersCollection.find(query).toArray();
             res.send(allsellers);
+        })
+        app.delete('/users/:id', verifyJWT, verifyAdmin, async (req, res) => {
+            const id = req.params.id;
+            const query = { _id: ObjectId(id) };
+            const result = await usersCollection.deleteOne(query);
+            res.send(result)
         })
         app.get('/jwt', async (req, res) => {
             const email = req.query.email;
